@@ -1,96 +1,95 @@
-# Pranav's AI/ML Portfolio Website
+# 🌟 Pranav's AI/ML Portfolio
 
-Welcome to the repository for Pranav's personal portfolio website! This project showcases a modern, interactive, and responsive web presence for an AI/ML Engineer, featuring dynamic backgrounds, custom cursor effects, and dedicated project pages.
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Built with React](https://img.shields.io/badge/Built%20With-React.js-blue)](#)
+[![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen)](#)
+[![3D Background](https://img.shields.io/badge/3D%20Background-Yes-purple)](#)
+[![Modern UI](https://img.shields.io/badge/UI-Glassmorphism%20%2F%20Modern-informational)](#)
+
+> **A modern, interactive portfolio to showcase my projects and skills in AI/ML. Enjoy dynamic 3D backgrounds, smooth animations, dark/light theming, and a seamless user experience.**
+
+Curious to see it live?  
+👉 [**View the Live Portfolio**](https://pranavisback.github.io/My-Portfolio/) – Explore the interactive site in your browser!
+
+---
 
 ## ✨ Features
 
-*   **Dynamic 3D Background:** An engaging and subtle 3D animated background (powered by Vanta.js and Three.js) that adds depth and a futuristic feel.
-*   **Interactive Cursor Effect:** A custom cursor that leaves a glowing trail and produces a ripple effect on click/tap, enhancing user interaction.
-*   **Responsive Design:** Fully optimized for various screen sizes, ensuring a seamless experience on desktops, tablets, and mobile devices.
-*   **Dedicated Project Pages:** Each featured project has its own detailed page, accessible via client-side routing, providing in-depth information and media.
-*   **Glassmorphism UI Elements:** Modern translucent UI components with subtle blur and glow effects.
-*   **Mailto Form Integration:** A contact form that directly opens the user's email client with pre-filled information, simplifying communication.
-*   **Smooth Scrolling Navigation:** Effortless navigation between sections with smooth scroll animations.
+- 🎨 **Dynamic 3D Background**: Futuristic, animated visuals powered by Vanta.js & Three.js
+- 🖱️ **Interactive Cursor Effects**: Custom glowing trail and ripple animations
+- 🌗 **Dark/Light Theme**: Instantly switch between beautiful dark and light modes
+- 📱 **Fully Responsive**: Looks great on mobile, tablet, and desktop
+- 🗂️ **Project Pages**: Dedicated, detailed pages for each featured project
+- 🧊 **Glassmorphism UI**: Modern translucent cards/elements with subtle blur & glow
+- 📧 **One-click Contact**: Email form opens with pre-filled info
+- 🔗 **Smooth Navigation**: Effortless transitions and scroll animations
 
-## 🛠️ Technologies Used
+---
 
-*   **React.js:** A JavaScript library for building user interfaces.
-*   **Vite:** A fast build tool for modern web projects.
-*   **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
-*   **Three.js:** A JavaScript 3D library for rendering animated graphics.
-*   **Vanta.js:** A library for animated 3D backgrounds, built on Three.js.
-*   **Lucide React:** A collection of beautiful and customizable open-source icons.
-*   **React Router DOM:** For declarative routing in React applications.
+## 📄 Pages
 
-## 🚀 Getting Started
+- **Home** – Welcome & intro
+- **About Me** – Bio, skills, background
+- **Projects** – Detailed project showcase
+- **Contact** – Email and connect
 
-Follow these steps to get a copy of the project up and running on your local machine for development and testing purposes.
+---
 
-### Prerequisites
+## 🛠️ Built With
 
-Make sure you have Node.js and npm (Node Package Manager) installed on your system.
+- **React.js**
+- **Vite**
+- **Tailwind CSS**
+- **Three.js** & **Vanta.js**
+- **Lucide React** (icons)
+- **React Router DOM**
 
-*   [Node.js](https://nodejs.org/en/download/)
+---
 
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/pranavisback/portfolio-website.git
-    cd portfolio-website
-    ```
-
-2.  **Install dependencies:**
-    Due to potential peer dependency conflicts, it's recommended to use the `--legacy-peer-deps` flag.
-    ```bash
-    npm install --legacy-peer-deps
-    ```
-
-3.  **Run the development server:**
-    ```bash
-    npm run dev
-    ```
-    This will start the development server, usually at `http://localhost:5173`. Open this URL in your browser to view the website.
-
-### Build for Production
-
-To create a production-ready build of the website:
+## 🚦 Quick Start
 
 ```bash
-npm run build
+# 1. Clone the repository
+git clone https://github.com/pranavisback/My-Portfolio.git
+cd My-Portfolio
+
+# 2. Install dependencies (recommended: --legacy-peer-deps)
+npm install --legacy-peer-deps
+
+# 3. Start the development server
+npm run dev
+
+# The app will usually run at http://localhost:5173
 ```
-This will compile the project into the `dist` directory, which can then be deployed to any static hosting service.
 
-## ⚙️ Customization
+---
 
-### Changing Content
+## 📱 Responsive & Customizable
 
-*   **Text Content:** Most of the text content (e.g., hero section text, about me description, skill names) can be found and edited directly in `src/App.jsx`.
-*   **Project Details:** Project information (title, description, image, tech stack, links) is managed within the `projects` array in `src/App.jsx` and `src/components/ProjectDetail.jsx`.
+- Mobile-first design, adapts to all screens
+- Touch-friendly navigation & cards
+- Easily edit content in `src/App.jsx` & `src/components/ProjectDetail.jsx`
+- Update images in `src/assets/`
 
-### Updating Images
+---
 
-*   **Profile Image:** Replace `src/assets/my_image.png` with your own profile picture. Ensure it's a circular image for best results with the existing styling.
-*   **Project Thumbnails:** Replace the images in `src/assets/` (e.g., `project_thumbnail_1.png`) with your project-specific images.
+## 🎨 Theme Switching
 
-### Adding New Projects
+- Toggle in the navbar for instant dark/light mode
+- Remembers your preference automatically
 
-1.  **Add Project Data:** In `src/App.jsx` and `src/components/ProjectDetail.jsx`, add a new object to the `projects` (or `projectsData`) array following the existing structure. Ensure you provide a unique `id` for the new project.
-2.  **Add Project Image:** Place your project's thumbnail image in the `src/assets/` directory and import it into `App.jsx` and `ProjectDetail.jsx`.
+---
 
-### Adjusting Styles
+## 👤 Author
 
-*   **Global Styles:** `src/App.css` contains global styles, custom utility classes, and animations.
-*   **Tailwind CSS:** For component-specific styling, utilize Tailwind CSS classes directly in your JSX files. Refer to the [Tailwind CSS documentation](https://tailwindcss.com/docs) for available classes.
+**Pranav Pawar**
 
-## 📧 Contact
+- [GitHub](https://github.com/pranavisback)
+- [LinkedIn](https://www.linkedin.com/in/pranav-pawar-op647)
+- [Email](mailto:pranav647p@gmail.com)
 
-If you have any questions or would like to connect, feel free to reach out:
+---
 
-*   **GitHub:** [https://github.com/pranavisback](https://github.com/pranavisback)
-*   **LinkedIn:** [https://www.linkedin.com/in/pranav-pawar-op647](https://www.linkedin.com/in/pranav-pawar-op647)
-*   **Email:** pranav647p@gmail.com
+## 📜 License
 
-## 📄 License
-
-This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
