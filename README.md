@@ -87,7 +87,7 @@ npm run dev
 
 ## 👤 Author
 
-<p>
+<p align="center">
   <b>Pranav Pawar</b><br>
   <a href="https://github.com/pranavisback"><img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github&style=flat-square" alt="GitHub"/></a>
   <a href="https://www.linkedin.com/in/pranav-pawar-op647"><img src="https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&style=flat-square" alt="LinkedIn"/></a>
